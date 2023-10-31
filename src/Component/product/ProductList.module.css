@@ -1,0 +1,17 @@
+.productImg{
+  width: 10%;
+}
+.productContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .salesContainer{
+    flex-direction: column;
+  }
+  .sales{
+  width: 100%;
+}
+}

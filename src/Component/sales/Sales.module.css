@@ -1,0 +1,33 @@
+.saleSection{
+  min-height: 100vh;
+}
+.salesTitle{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.salesContainer{
+  padding: 0px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.sales{
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px ;
+}
+.salesContent{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media (max-width: 600px) {
+  .salesContainer{
+    flex-direction: column;
+  }
+  .sales{
+  width: 100%;
+}
+}

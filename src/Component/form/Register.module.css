@@ -1,0 +1,26 @@
+.formContainer {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 0.9rem;
+}
+.input {
+  padding: 10px;
+}
+.btn {
+  border: none;
+  background-color: rebeccapurple;
+  padding: 12px 25px;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 0.4rem;
+  cursor: pointer;
+}
